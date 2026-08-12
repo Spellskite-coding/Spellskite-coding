@@ -153,15 +153,15 @@ Homelab de sécurité intégrant plusieurs briques SOC, détection et gestion IT
 - **SOC sous Wazuh** : centralisation et corrélation des alertes
 - **Intégration Wazuh ↔ GLPI** : les alertes critiques déclenchent automatiquement la création de tickets dans GLPI via l'API
 - **Détection de malwares à la volée** : un partage **Samba** héberge SOC, GLPI et les fichiers partagés ; dès qu'un fichier y est déposé, Wazuh remonte l'alerte de dépôt, **ClamAV** analyse le fichier, et le résultat est reporté dans Wazuh
-- **Honeypot FreeBSD** : jail dédiée exposant un honeypot **Cowrie**, surveillée par un IDS **Suricata**
+- **Hôte FreeBSD** : exécute l'IDS **Suricata** et héberge une jail dédiée exposant le honeypot **Cowrie**
 - **Réseaux d'entreprise Cisco** : conception et sécurisation sur Packet Tracer
 
 ![Wazuh](https://img.shields.io/badge/Wazuh-SOC-3AB0FF?style=flat-square&logo=wazuh&logoColor=white)
 ![GLPI](https://img.shields.io/badge/GLPI-Ticketing-FF7900?style=flat-square)
 ![ClamAV](https://img.shields.io/badge/ClamAV-Antivirus-000000?style=flat-square&logo=clamav&logoColor=white)
 ![Samba](https://img.shields.io/badge/Samba-0555C7?style=flat-square&logo=samba&logoColor=white)
-![FreeBSD](https://img.shields.io/badge/FreeBSD-Honeypot-AB2B28?style=flat-square&logo=freebsd&logoColor=white)
-![Cowrie](https://img.shields.io/badge/Cowrie-Honeypot-grey?style=flat-square)
+![FreeBSD](https://img.shields.io/badge/FreeBSD-Host%20%2F%20IDS-AB2B28?style=flat-square&logo=freebsd&logoColor=white)
+![Cowrie](https://img.shields.io/badge/Cowrie-Honeypot%20(jail)-grey?style=flat-square)
 ![Suricata](https://img.shields.io/badge/Suricata-IDS-D0242B?style=flat-square)
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 
