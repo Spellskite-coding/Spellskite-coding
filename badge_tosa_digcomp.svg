@@ -1,0 +1,19 @@
+<svg viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <path d="M130,4 L246,42 L246,150 C246,225 195,278 130,308 C65,278 14,225 14,150 L14,42 Z"
+        fill="#fdfbf9" stroke="#f3641e" stroke-width="4"/>
+
+  <!-- TOSA-style flag/dot mark -->
+  <g transform="translate(105,50)">
+    <path d="M0,0 L0,40 L4,40 L4,22 L28,14 L4,4 Z" fill="#1a1a1a"/>
+    <circle cx="9" cy="8" r="6" fill="#f3641e"/>
+  </g>
+
+  <text x="130" y="128" font-size="34" fill="#1a1a1a" font-weight="bold" text-anchor="middle">TOSA</text>
+  <text x="130" y="155" font-size="17" fill="#4a4a4a" text-anchor="middle">DigComp</text>
+
+  <!-- ribbon -->
+  <rect x="45" y="215" width="170" height="40" fill="#f3641e"/>
+  <path d="M14,215 L45,215 L45,255 L14,255 L30,235 Z" fill="#c94f18"/>
+  <path d="M246,215 L215,215 L215,255 L246,255 L230,235 Z" fill="#c94f18"/>
+  <text x="130" y="242" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" letter-spacing="1">EXPERT</text>
+</svg>

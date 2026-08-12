@@ -1,0 +1,31 @@
+<svg viewBox="0 0 900 390" xmlns="http://www.w3.org/2000/svg" font-family="Menlo, Consolas, 'Courier New', monospace">
+  <defs>
+    <clipPath id="term-fuzzer"><rect width="900" height="390" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#term-fuzzer)">
+    <rect width="900" height="390" fill="#0d1117"/>
+    <rect width="900" height="34" fill="#161b22"/>
+    <circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17" r="6" fill="#27c93f"/>
+    <text x="450" y="22" font-size="13" fill="#8b949e" text-anchor="middle">enzo@fuzzlab: ~/fuzzer</text>
+
+    <text x="20" y="62" font-size="14">
+      <tspan fill="#3fb950">$ </tspan><tspan fill="#c9d1d9">python3 fuzzer.py ./target_bin</tspan>
+    </text>
+
+    <text x="20" y="94" font-size="14" fill="#8b949e">[*] Starting fuzzing of ./target_bin (max 5000 bytes, step 100)</text>
+    <text x="20" y="116" font-size="14" fill="#8b949e">[*] Testing 2600 bytes (26/50 - 52.0%)</text>
+
+    <text x="20" y="150" font-size="14" fill="#ff6b6b">[!] Crash detected with 2600 bytes!</text>
+    <text x="20" y="172" font-size="14" fill="#c9d1d9">    Return code: -11 (0xfffffff5)</text>
+    <text x="20" y="194" font-size="14" fill="#ff6b6b">    Error: Segmentation fault (core dumped)</text>
+    <text x="20" y="216" font-size="14" fill="#3fb950">[+] Offset found: 2606 bytes</text>
+
+    <text x="20" y="250" font-size="14" fill="#8b949e">==================================================</text>
+    <text x="20" y="272" font-size="14" fill="#c9d1d9">[*] Fuzzing completed.</text>
+    <text x="20" y="294" font-size="14" fill="#c9d1d9">    Crashes detected: 1</text>
+    <text x="20" y="316" font-size="14" fill="#3fb950">    Offset found: 2606 bytes</text>
+    <text x="20" y="338" font-size="14" fill="#8b949e">==================================================</text>
+  </g>
+</svg>

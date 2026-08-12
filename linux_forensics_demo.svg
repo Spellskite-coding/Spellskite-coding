@@ -1,0 +1,37 @@
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="Menlo, Consolas, 'Courier New', monospace">
+  <defs>
+    <clipPath id="term-forensics"><rect width="900" height="400" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#term-forensics)">
+    <rect width="900" height="400" fill="#0d1117"/>
+    <rect width="900" height="34" fill="#161b22"/>
+    <circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17" r="6" fill="#27c93f"/>
+    <text x="450" y="22" font-size="13" fill="#8b949e" text-anchor="middle">enzo@ir-workstation: ~/linux_forensics</text>
+
+    <text x="20" y="62" font-size="14">
+      <tspan fill="#3fb950"># </tspan><tspan fill="#c9d1d9">python3 linux_forensics.py</tspan>
+    </text>
+
+    <text x="20" y="94" font-size="14" fill="#ffa657">[!] Execution en tant que root detectee - mode complet active</text>
+    <text x="20" y="116" font-size="14" fill="#8b949e">[*] Analyse 100% en memoire - aucune ecriture disque</text>
+    <text x="20" y="138" font-size="14">
+      <tspan fill="#c9d1d9">Continuer ? (o/N): </tspan><tspan fill="#3fb950">o</tspan>
+    </text>
+
+    <text x="20" y="172" font-size="14" fill="#c9d1d9">[*] Connexions reseau actives ...</text>
+    <text x="20" y="194" font-size="14" fill="#8b949e">  PID 1832 (nginx)  -&gt; 10.0.0.5:443           [ESTABLISHED]</text>
+    <text x="20" y="216" font-size="14">
+      <tspan fill="#ff6b6b">  PID 4471 (?)      -&gt; 185.220.101.47:4444   [ESTABLISHED]</tspan>
+    </text>
+    <text x="20" y="238" font-size="14" fill="#ff6b6b">    warning: processus introuvable dans /proc</text>
+
+    <text x="20" y="270" font-size="14" fill="#c9d1d9">[*] Processus au comportement anormal ...</text>
+    <text x="20" y="292" font-size="14" fill="#ff6b6b">  PID 4471 : binaire supprime du disque, execute depuis /dev/shm</text>
+    <text x="20" y="314" font-size="14" fill="#ff6b6b">  SHA256: 9f2c1a7e...ffb41f2d  (memfd_create detecte)</text>
+
+    <text x="20" y="348" font-size="14" fill="#c9d1d9">[*] 3 fichier(s) cache(s) detecte(s) dans /tmp, /var/tmp, /dev/shm</text>
+    <text x="20" y="370" font-size="14" fill="#8b949e">[*] Rapport : forensics_report_2026-08-12_1420.txt</text>
+  </g>
+</svg>
