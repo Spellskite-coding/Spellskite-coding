@@ -39,6 +39,23 @@ Analyste CTI/DFIR & Ingénieur Sécurité en purple team, avec une expertise en 
 
 ## 🔵 Blue Team & DFIR
 
+### [win_malware_analyzer](https://github.com/Spellskite-coding/win_malware_analyzer)
+Analyse statique poussée de binaires Windows (EXE/DLL/SYS) : extraction d'IOCs, cartographie des capacités comportementales et amorce automatisée de reverse engineering.
+
+- Parsing structurel PE via **LIEF** : sections, entropie, mitigations de sécurité (ASLR, DEP/NX, CFG), imports
+- Cartographie des capacités malveillantes potentielles (injection de processus, anti-debug, persistance, keylogging, ransomware, C2) à partir des API importées
+- Extraction d'IOCs (IP, domaines, URLs, chemins et clés de registre Windows, commandes) y compris depuis du contenu encodé en base64
+- Amorce de reverse engineering via **r2pipe** (Rizin) : décompilation du point d'entrée, cross-références des API sensibles
+- Export du rapport complet au format JSON
+
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/win_malware_analyzer_demo.png" alt="Exemple de sortie win_malware_analyzer" width="700">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LIEF](https://img.shields.io/badge/LIEF-PE%20Parsing-informational?style=flat-square)
+![Rizin](https://img.shields.io/badge/Rizin-r2pipe-informational?style=flat-square)
+
+---
+
 ### [LinuxHunt](https://github.com/Spellskite-coding/LinuxHunt)
 Équivalent Linux de **DeepBlueCLI** (SANS) : parsing et threat hunting sur les logs système Linux (`auth.log`, `syslog`, `audit.log`, `journalctl`) pour faire ressortir les comportements malveillants et suspects lors d'une réponse à incident.
 
@@ -47,6 +64,19 @@ Analyste CTI/DFIR & Ingénieur Sécurité en purple team, avec une expertise en 
 - Utilisé en conditions réelles sur systèmes Debian
 
 <img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/linuxhunt_demo.png" alt="Exemple de sortie LinuxHunt" width="700">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+---
+
+### [static_doc_analyzer](https://github.com/Spellskite-coding/static_doc_analyzer)
+Analyseur statique de documents (PDF, OOXML — docx/xlsx...) permettant de décider si un fichier reçu peut être ouvert en toute sécurité, **sans jamais l'exécuter**.
+
+- Zéro dépendance externe (aucune lib tierce, aucun binaire appelé) : outil totalement autonome
+- Conçu comme couche de protection supplémentaire sous Linux, en l'absence d'antivirus
+- Priorité à la précision : détection puissante avec un minimum de faux positifs
+
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/static_doc_analyzer_demo.png" alt="Exemple de sortie static_doc_analyzer" width="700">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -62,32 +92,6 @@ Script de **live forensics** Linux pour la réponse à incident : zéro dépenda
 <img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/linux_forensics_demo.png" alt="Exemple de sortie linux_forensics" width="700">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
----
-
-### [static_doc_analyzer](https://github.com/Spellskite-coding/static_doc_analyzer)
-Analyseur statique de documents (PDF, OOXML — docx/xlsx...) permettant de décider si un fichier reçu peut être ouvert en toute sécurité, **sans jamais l'exécuter**.
-
-- Zéro dépendance externe (aucune lib tierce, aucun binaire appelé) : outil totalement autonome
-- Conçu comme couche de protection supplémentaire sous Linux, en l'absence d'antivirus
-- Priorité à la précision : détection puissante avec un minimum de faux positifs
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
----
-
-### [win_malware_analyzer](https://github.com/Spellskite-coding/win_malware_analyzer)
-Analyse statique poussée de binaires Windows (EXE/DLL/SYS) : extraction d'IOCs, cartographie des capacités comportementales et amorce automatisée de reverse engineering.
-
-- Parsing structurel PE via **LIEF** : sections, entropie, mitigations de sécurité (ASLR, DEP/NX, CFG), imports
-- Cartographie des capacités malveillantes potentielles (injection de processus, anti-debug, persistance, keylogging, ransomware, C2) à partir des API importées
-- Extraction d'IOCs (IP, domaines, URLs, chemins et clés de registre Windows, commandes) y compris depuis du contenu encodé en base64
-- Amorce de reverse engineering via **r2pipe** (Rizin) : décompilation du point d'entrée, cross-références des API sensibles
-- Export du rapport complet au format JSON
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LIEF](https://img.shields.io/badge/LIEF-PE%20Parsing-informational?style=flat-square)
-![Rizin](https://img.shields.io/badge/Rizin-r2pipe-informational?style=flat-square)
 
 ---
 
