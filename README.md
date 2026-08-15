@@ -100,11 +100,15 @@ Script de **live forensics** Linux pour la réponse à incident : zéro dépenda
 ### SQLi_XSS_tester
 Script d'automatisation de l'énumération de vulnérabilités **SQL Injection** et **XSS** sur une cible web lors d'un pentest : test des paramètres d'URL et des formulaires détectés automatiquement sur la page (via BeautifulSoup), avec des payloads couvrant l'injection classique, le blind/time-based et plusieurs techniques de bypass de filtres.
 
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/sqli_xss_tester_demo.png" alt="Exemple de sortie SQLi_XSS_tester" width="700">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Requests](https://img.shields.io/badge/Requests-black?style=flat-square)
 
 ### LFI_tester
 Script dédié à l'énumération de vulnérabilités **Local File Inclusion** : traversal classique, bypass par encodage (simple/double, UTF-8), wrappers PHP (`php://filter`, `php://input`, `expect://`), et détection de log poisoning sur les fichiers de logs Apache/Nginx courants.
+
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/lfi_tester_demo.png" alt="Exemple de sortie LFI_tester" width="700">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -117,6 +121,8 @@ Fuzzer générant des patterns cycliques pour identifier des crashs (buffer over
 
 ### Secrets Finder
 Scanner de secrets pour fichiers et répertoires : détection de clés AWS, tokens GitHub/Slack, clés privées, mots de passe et chaînes base64 suspectes via un jeu de règles regex, avec export JSON du rapport — utile en revue de code lors d'un audit ou d'un pentest.
+
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/secrets_finder_demo.png" alt="Exemple de sortie Secrets Finder" width="700">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
