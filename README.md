@@ -39,6 +39,24 @@ Analyste CTI/DFIR & Ingénieur Sécurité en purple team, avec une expertise en 
 
 ## 🔵 Blue Team & DFIR
 
+### [RansomShield](https://github.com/Spellskite-coding/RansomShield)
+Démon de détection de ransomware **basé sur le comportement**, écrit en Rust, pour serveurs Linux — bâti sur `fanotify(7)` (API mainline du noyau, aucun module noyau, aucun eBPF, aucun code `unsafe` dans le démon).
+
+- Ne réagit pas à la modification de fichiers en soi, mais au **pattern spécifique du chiffrement** : rafale d'écritures à haute entropie sur de nombreux fichiers distincts dans une fenêtre de temps courte, ou déclenchement d'un fichier **honeypot** qu'aucun processus légitime ne devrait jamais toucher
+- **Baseline par répertoire** : une écriture haute entropie ne compte que si le répertoire contenait auparavant du contenu en clair — évite les faux positifs sur les dossiers de sauvegarde/export qui reçoivent légitimement des archives
+- **Liste blanche d'exécutables de confiance** (chemin + SHA-256), utilisable finement pour un script de sauvegarde/chiffrement connu — ne s'applique jamais à la détection honeypot
+- **Réponse en mode enforce** : SIGSTOP immédiat du processus, mise en quarantaine des fichiers touchés, SIGKILL, puis rapport d'incident et hook de notification externe (email/Slack/PagerDuty)
+- **Tests exclusivement en conteneurs Docker jetables**, jamais sur un hôte ni avec de vrais échantillons de ransomware — simulateurs d'attaque et de charges légitimes (sauvegarde, chiffrement de confiance) sur 5 distributions
+- Résultats de test : sur une rafale de 300 fichiers, seuls 8 (2,7 %) touchés avant l'arrêt du processus, tous récupérés intacts en quarantaine, réponse en moins d'une seconde
+
+<img src="https://raw.githubusercontent.com/Spellskite-coding/Spellskite-coding/main/ransomshield_demo.png" alt="Exemple de détection RansomShield" width="700">
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![fanotify](https://img.shields.io/badge/Linux-fanotify-FCC624?style=flat-square&logo=linux&logoColor=black)
+![systemd](https://img.shields.io/badge/systemd-service-informational?style=flat-square)
+
+---
+
 ### [win_malware_analyzer](https://github.com/Spellskite-coding/win_malware_analyzer)
 Analyse statique poussée de binaires Windows (EXE/DLL/SYS) : extraction d'IOCs, cartographie des capacités comportementales et amorce automatisée de reverse engineering.
 
