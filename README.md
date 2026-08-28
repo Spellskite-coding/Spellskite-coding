@@ -174,7 +174,7 @@ Automates updating all Windows programs in one click via `winget upgrade --all`.
 
 <img src="assets/demos/la_meuh_demo.png" alt="La Meuh update window" width="500">
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows%2011-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 ### [Hus-Clean](https://github.com/Spellskite-coding/hus-clean)
@@ -182,8 +182,8 @@ Cleaner for temporary files and unwanted cookies (Chrome, Firefox, Brave, Edge, 
 
 <img src="assets/demos/hus_clean_demo.png" alt="Hus-Clean interface" width="500">
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows%2011-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 ### [Colibri Converter](https://github.com/Spellskite-coding/Colibri_Converter)
 Cross-platform PDF ↔ DOCX conversion, 100% local: no network access required, in the same spirit as La Meuh and Hus-Clean — security and simplicity first.
@@ -214,7 +214,7 @@ Security homelab integrating several interconnected SOC, detection and IT manage
 ![Suricata](https://img.shields.io/badge/Suricata-IDS-D0242B?style=flat-square)
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 
-### [Binary Analysis](https://github.com/Spellskite-coding/Analyse_de_binaires)
+### [Binary Analysis](https://github.com/Spellskite-coding/Binary_Analysis)
 Malicious binary analysis reports, covering:
 
 - **CTI**: IOC extraction and correlation
@@ -226,7 +226,7 @@ Malicious binary analysis reports, covering:
 ![CTI](https://img.shields.io/badge/CTI-Threat%20Intelligence-1f6feb?style=flat-square)
 ![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering-8957e5?style=flat-square)
 
-### [Cybersecurity Guide](https://github.com/Spellskite-coding/Guide_cybersecurite)
+### [Cybersecurity Guide](https://github.com/Spellskite-coding/Cybersecurity_Field_Guide)
 Guide of tools and commands for the cybersecurity community.
 
 <img src="assets/demos/guide_cybersecurite_demo.png" alt="Cybersecurity Guide preview" width="700">
