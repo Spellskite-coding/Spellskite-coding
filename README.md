@@ -14,14 +14,17 @@ CTI/DFIR Analyst & Security Engineer on a purple team, with expertise in threat 
 <td align="center"><img src="assets/badges/badge_ccdl1.png" alt="Certified CyberDefender L1" width="110"><br><sub><b>Certified CyberDefender L1</b><br>CyberDefenders</sub></td>
 <td align="center"><img src="assets/badges/badge_sal1.png" alt="Security Analyst SAL1" width="110"><br><sub><b>Security Analyst (SAL1)</b><br>TryHackMe</sub></td>
 <td align="center"><img src="assets/badges/badge_sec1.png" alt="Cyber Security 101 SEC1" width="110"><br><sub><b>Cyber Security 101 (SEC1)</b><br>TryHackMe</sub></td>
-<td align="center"><img src="assets/badges/badge_security_plus.png" alt="CompTIA Security+" width="110"><br><sub><b>Security+</b><br>CompTIA</sub></td>
 </tr>
 <tr>
+<td align="center"><img src="assets/badges/badge_security_plus.png" alt="CompTIA Security+" width="110"><br><sub><b>Security+</b><br>CompTIA</sub></td>
 <td align="center"><img src="assets/badges/badge_network_plus.png" alt="CompTIA Network+" width="110"><br><sub><b>Network+</b><br>CompTIA</sub></td>
 <td align="center"><img src="assets/badges/badge_osint.png" alt="Permis d'Osinter" width="110"><br><sub><b>Permis d'Osinter</b><br>Oscar Zulu Crew</sub></td>
 <td align="center"><img src="assets/badges/badge_pentester_m2i.png" alt="Pentester M2i" width="110"><br><sub><b>Pentester</b><br>M2i Formation</sub></td>
+</tr>
+<tr>
 <td align="center"><img src="assets/badges/badge_admin_reseau.png" alt="Administrateur Reseau FormIP" width="110"><br><sub><b>Network Administrator</b><br>FormIP</sub></td>
 <td align="center"><img src="assets/badges/badge_tosa_digcomp.png" alt="Tosa DigComp" width="110"><br><sub><b>Tosa DigComp</b><br>Isograd — Expert</sub></td>
+<td align="center"><img src="assets/badges/badge_ai1.png" alt="AI Security AI1" width="110"><br><sub><b>AI Security (AI1)</b><br>TryHackMe</sub></td>
 </tr>
 </table>
 
