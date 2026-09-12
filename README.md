@@ -33,6 +33,7 @@ CTI/DFIR Analyst & Security Engineer on a purple team, with expertise in threat 
 ## 📌 Summary
 
 - [🔵 Blue Team & DFIR](#-blue-team--dfir)
+- [🎓 SOC & DFIR Training Simulators](#-soc--dfir-training-simulators)
 - [🔴 Red Team & Offensive Security](#-red-team--offensive-security)
 - [🛠️ Open-Source Tools](#️-open-source-tools)
 - [📚 Other Projects](#-other-projects)
@@ -132,6 +133,46 @@ Linux **live forensics** script for incident response: zero external dependency,
 <img src="assets/demos/linux_forensics_demo.png" alt="linux_forensics output example" width="700">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## 🎓 SOC & DFIR Training Simulators
+
+Static, dependency-free web apps built to train analysts under realistic conditions — no server, no network calls, deployable in one click via GitHub Pages. Designed as a companion pair: one drills decision-making under pressure, the other drills methodical reconstruction.
+
+### [Open-SOC](https://github.com/Spellskite-coding/Open-SOC)
+SOC shift simulator: an alert every two to three minutes, eleven initial-access scenarios plus six short-form alerts, played in a fictional SIEM/EDR with no escalation path — the analyst is the one who responds.
+
+- Timed triage and cross-alert correlation, with realistic background noise and no case ID handed over
+- Decide and remediate: isolate, disable, reset, revoke MFA — or escalate to the client when that's the correct call, and know when to leave a legitimate case untouched
+- Closure requires a verdict, a severity, an ATT&CK technique (140 techniques across 14 tactics) and a cited written report
+- Detailed scoring across five axes, with a full debrief and exportable JSON report
+
+**[▶ Live demo](https://spellskite-coding.github.io/Open-SOC/)**
+
+<img src="assets/demos/open_soc_demo.png" alt="Open-SOC shift simulator interface" width="700">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES5-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-D42029?style=flat-square)
+![Zero Dependency](https://img.shields.io/badge/Dependencies-Zero-informational?style=flat-square)
+
+### [Open-Forensics](https://github.com/Spellskite-coding/Open-Forensics)
+Digital forensics simulator: ten incident cases, nothing but logs, fifteen thousand lines to sift through — establish the facts, reconstruct the attack, and prove it in a written report.
+
+- Cross-exhibit search and per-exhibit filtering across pure log evidence, no disk image or memory capture
+- Findings validated against leniently-normalized answers (case, accents, defanged indicators, French/ISO timestamps)
+- Full ATT&CK attack chain across twelve tactics, including correctly declaring tactics that were *not* observed
+- Deterministic background traffic (fixed per case/exhibit) so instructors can prepare an answer key and students can compare notes
+
+**[▶ Live demo](https://spellskite-coding.github.io/Open-Forensics/)**
+
+<img src="assets/demos/open_forensics_demo.png" alt="Open-Forensics investigation interface" width="700">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES5-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-D42029?style=flat-square)
+![Zero Dependency](https://img.shields.io/badge/Dependencies-Zero-informational?style=flat-square)
 
 ---
 
