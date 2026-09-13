@@ -1,6 +1,6 @@
-# 🛡️ Enzo Demaretz — CTI/DFIR Analyst & Security Engineer
+# 🛡️ Enzo Demaretz — CTI/DFIR Analyst
 
-CTI/DFIR Analyst & Security Engineer on a purple team, with expertise in threat hunting, DFIR, web pentesting and user security awareness training, built up notably as an independent consultant. Passionate about networking, system architecture, security tool development and malware analysis.
+CTI/DFIR Analyst on a purple team, with expertise in threat hunting, DFIR, security engineering, web pentesting and user security awareness training, built up notably as an independent consultant. Passionate about networking, system architecture, security tool development and malware analysis.
 
 📍 Independent purple team cybersecurity consultant **currently on hold** (my current full-time role takes up all my time) — the tools below were developed in that context and keep evolving in my personal time.
 
